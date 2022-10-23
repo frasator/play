@@ -12,7 +12,7 @@ window.songs = [
 		"id": "pd3saZ8r2dYVNPkdYM43LnwgbzasExYu"
 	},
 	{	
-		"title":"Paradise_-_See_The_Light__(Styles___Breeze_Remix)",
+		"title":"Paradise - See The Light (Styles Breeze Remix)",
 		"id": "PGLvd3FqomKxLj3iTef4I2KYmM0ulsP2"
 	},
 	{	
