@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Music Player</title>
+  </head>
+  <body>
+    <div class="nodelete" id="music-list">
+    </div>
+    <div class="nodelete music-container" id="music-container">
+
+      <audio id="audio"></audio>
+
+      <div class="navigation">
+        <button id="prev" class="action-btn">
+          <i class="fas fa-backward"></i>
+        </button>
+        <button id="play" class="action-btn action-btn-big">
+          <i class="fas fa-play"></i>
+        </button>
+        <button id="next" class="action-btn">
+          <i class="fas fa-forward"></i>
+        </button>
+      </div>
+
+      <div class="music-info">
+        <div style="display:flex">
+          <div id="currTime">&nbsp;</div>
+          <div style="flex-grow:1"></div>
+          <div id="durTime">&nbsp;</div>
+        </div>
+        <div class="progress-container" id="progress-container">
+          <div class="progress" id="progress"></div>
+        </div>
+        <div id="title" style="height:4em;padding-top:0.4em"></div>
+      </div>
+
+    </div>
+
+
+    <script class="nodelete" src="songs.js"></script>
+    <script class="nodelete" src="script.js"></script>
+  </body>
+</html>

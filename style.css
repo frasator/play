@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color:#000;
+  color:#fff;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lato', sans-serif;
+  margin:10px;
+  height: calc(100vh - 20px);
+  width: calc(100% - 20px);
+}
+
+#music-list {
+  padding: 0.5em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  flex-grow: 1;
+  counter-reset: section;
+  overflow-y: scroll;
+}
+.song {
+  cursor: pointer;
+}
+.song.playing {
+  cursor: pointer;
+  color:#00fff2;
+}
+.song:hover {
+  color:#00a2ff;
+}
+.song::before {
+  counter-increment: section;
+  color:#666;
+  content: counter(section) ". ";
+}
+
+.music-container {
+  padding: 0.5em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width:100%;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.action-btn {
+  background-color: inherit;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 0 20px;
+}
+
+.action-btn.action-btn-big {
+  color: #fff;
+  font-size: 30px;
+}
+
+.action-btn:focus {
+  outline: 0;
+}
+
+.music-info {
+  padding: 0;
+  opacity: 0;
+  /* transform: translateY(0%); */
+  transition: transform 0.3s ease-in, opacity 0.3s ease-in;
+  z-index: 0;
+}
+
+.music-container.play .music-info {
+  opacity: 1;
+  /* transform: translateY(-100%); */
+}
+
+.music-info h4 {
+  margin: 0;
+}
+
+.progress-container {
+  background: #222;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 20px;
+}
+
+.progress {
+  background-color: #00fff2;
+  border-radius: 5px;
+  height: 100%;
+  width: 0%;
+  transition: width 0.1s linear;
+}
