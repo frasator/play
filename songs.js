@@ -1,10 +1,10 @@
 window.songs = [
 	{
-		"title":"ACDC - Highway To Hell.mp3",
+		"title":"AC/DC - Highway To Hell.mp3",
 		"location": "https://audio.jukehost.co.uk/Ndx9ny3tfBFYQMPkJRwPhAC1HsMTmrE0"
 	},
 	{
-		"title":"AC_DC - Thunderstruck",
+		"title":"AC/DC - Thunderstruck",
 		"location": "https://audio.jukehost.co.uk/aCtyfWnGtHqIXvDDUH1RWAKubkqUGMp5"
 	},
 	{
