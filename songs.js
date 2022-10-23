@@ -4,6 +4,10 @@ window.songs = [
 		"location": "https://audio.jukehost.co.uk/Ndx9ny3tfBFYQMPkJRwPhAC1HsMTmrE0"
 	},
 	{
+		"title":"AC_DC - Thunderstruck",
+		"location": "https://audio.jukehost.co.uk/aCtyfWnGtHqIXvDDUH1RWAKubkqUGMp5"
+	},
+	{
 		"title":"Fragma - Memory (CLSM Remix)",
 		"location": "https://audio.jukehost.co.uk/pd3saZ8r2dYVNPkdYM43LnwgbzasExYu"
 	},
