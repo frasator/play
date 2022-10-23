@@ -41,13 +41,13 @@ loadSong(songs[songIndex])
 // Update song details
 function loadSong(song) {
 	title.innerText = getTitle(song);
-	audio.src = `${song.location}`;
+	audio.src = `${atob("aHR0cHM6Ly9hdWRpby5qdWtlaG9zdC5jby51ay8=")}${song.id}`;
 }
 
 function getTitle(song) {
 	let aux
 	if (song.title == null) {
-		let split = song.location.split('/')
+		let split = song.id.split('/')
 		aux = decodeURI(split.pop())
 	} else {
 		aux = song.title
