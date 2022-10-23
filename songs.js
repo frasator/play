@@ -1,6 +1,6 @@
 window.songs = [
 	{
-		"title":"AC/DC - Highway To Hell.mp3",
+		"title":"AC/DC - Highway To Hell",
 		"location": "https://audio.jukehost.co.uk/Ndx9ny3tfBFYQMPkJRwPhAC1HsMTmrE0"
 	},
 	{
