@@ -7,6 +7,22 @@ window.songs = [
 		"title":"AC/DC - Thunderstruck",
 		"id": "aCtyfWnGtHqIXvDDUH1RWAKubkqUGMp5"
 	},
+	{	
+		"title":"Zedd - Beautiful Now (Mob X Enemy Remix)",
+		"id": "KeV6aixUtnRUtPNqfO6gyTxDNyJxwnzR"
+	},
+	{	
+		"title":"Cash Cash - Michael Jackson (The Beat Goes On)",
+		"id": "q3Dz9W6Dhiuo7XTGz0Wou8qUAO1U9EWK"
+	},
+	{	
+		"title":"Hudson Mohawke - Very First Breath (M-Project Remix)",
+		"id": "XpbNqTYGZirOXNfyyoSA2E7Nlpe6B4dE"
+	},
+	{
+		"title":"D Code Feat Emma - My Direction (Squad E Remix)",
+		"id": "F3zAAGaT5d83kB0fyXD7H0m510gjxSVf"
+	},
 	{
 		"title":"Fragma - Memory (CLSM Remix)",
 		"id": "pd3saZ8r2dYVNPkdYM43LnwgbzasExYu"
@@ -22,5 +38,5 @@ window.songs = [
 	{	
 		"title":"Hixxy - I Have To Dream (Dougal & Gammer Remix)",
 		"id": "vEwPhwc6zoEPcx7BFdaCvm0nK3YhFsjo"
-	},
+	}
 ]
