@@ -20,6 +20,10 @@ window.songs = [
 		"id": "8YTmwPUQRYwhhU118GHwBrV7Y0e6RdKj"
 	},
 	{	
+		"title":"M & C - Magic Touch (Squad-E Remix)",
+		"id": "NR7AHiJwqx8EnewEkOEeYYj5paZajw2M"
+	},
+	{	
 		"title":"Hudson Mohawke - Very First Breath (M-Project Remix)",
 		"id": "XpbNqTYGZirOXNfyyoSA2E7Nlpe6B4dE"
 	},
