@@ -11,6 +11,10 @@ window.songs = [
 		"title":"AC/DC - Thunderstruck",
 		"id": "aCtyfWnGtHqIXvDDUH1RWAKubkqUGMp5"
 	},
+	{
+		"title":"HammerFall - Hearts On Fire",
+		"id": "4frDLJUWIeL4WmpmRMrPCbUcAcePG69E"
+	},
 	{	
 		"title":"Cash Cash - Michael Jackson (The Beat Goes On)",
 		"id": "q3Dz9W6Dhiuo7XTGz0Wou8qUAO1U9EWK"
