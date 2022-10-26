@@ -32,6 +32,10 @@ window.songs = [
 		"id": "PGLvd3FqomKxLj3iTef4I2KYmM0ulsP2"
 	},
 	{	
+		"title":"Impact & Resist - Someday",
+		"id": "zZjJZZ6OedsgqSP0DWU87wIWpBhQbasB"
+	},
+	{	
 		"title":"Eclipse - 24 7 (Squad E Remix)",
 		"id": "mxShzE0VqyZ1jMnXFrtH2UWUg5hiAngN"
 	},
