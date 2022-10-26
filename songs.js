@@ -16,6 +16,10 @@ window.songs = [
 		"id": "q3Dz9W6Dhiuo7XTGz0Wou8qUAO1U9EWK"
 	},
 	{	
+		"title":"Cascada - Everytime We Touch (Styles & Breeze Remix)",
+		"id": "8YTmwPUQRYwhhU118GHwBrV7Y0e6RdKj"
+	},
+	{	
 		"title":"Hudson Mohawke - Very First Breath (M-Project Remix)",
 		"id": "XpbNqTYGZirOXNfyyoSA2E7Nlpe6B4dE"
 	},
