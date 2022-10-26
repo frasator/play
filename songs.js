@@ -15,6 +15,10 @@ window.songs = [
 		"title":"HammerFall - Hearts On Fire",
 		"id": "4frDLJUWIeL4WmpmRMrPCbUcAcePG69E"
 	},
+	{
+		"title":"In Flames - I Am Above",
+		"id": "qVmlj4eqk3WIn0YJigQ1OSmnPOvoH0Yd"
+	},
 	{	
 		"title":"Cash Cash - Michael Jackson (The Beat Goes On)",
 		"id": "q3Dz9W6Dhiuo7XTGz0Wou8qUAO1U9EWK"
