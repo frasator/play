@@ -4,16 +4,20 @@ window.songs = [
 		"id": "Ndx9ny3tfBFYQMPkJRwPhAC1HsMTmrE0"
 	},
 	{
+		"title":"Survivor - Eye of the Tiger",
+		"id": "tCIU6GJKWts00lsgJvJawTgc7cq5EtnW"
+	},
+	{
 		"title":"AC/DC - Thunderstruck",
 		"id": "aCtyfWnGtHqIXvDDUH1RWAKubkqUGMp5"
 	},
 	{	
-		"title":"Zedd - Beautiful Now (Mob X Enemy Remix)",
-		"id": "KeV6aixUtnRUtPNqfO6gyTxDNyJxwnzR"
-	},
-	{	
 		"title":"Cash Cash - Michael Jackson (The Beat Goes On)",
 		"id": "q3Dz9W6Dhiuo7XTGz0Wou8qUAO1U9EWK"
+	},
+	{	
+		"title":"Zedd - Beautiful Now (Mob X Enemy Remix)",
+		"id": "KeV6aixUtnRUtPNqfO6gyTxDNyJxwnzR"
 	},
 	{	
 		"title":"Cascada - Everytime We Touch (Styles & Breeze Remix)",
