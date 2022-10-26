@@ -17,7 +17,7 @@ window.songs = [
 	},
 	{
 		"title":"In Flames - I Am Above",
-		"id": "qVmlj4eqk3WIn0YJigQ1OSmnPOvoH0Yd"
+		"id": "I7mDYGWpKZVBlP2V5gvuOznAk5Aw8Wcm"
 	},
 	{	
 		"title":"Cash Cash - Michael Jackson (The Beat Goes On)",
