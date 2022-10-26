@@ -12,12 +12,28 @@ window.songs = [
 		"id": "aCtyfWnGtHqIXvDDUH1RWAKubkqUGMp5"
 	},
 	{
+		"title":"Evanescence - Bring Me To Life ",
+		"id": "5RUF3hShW7w0YyZaw1wkx5mnkKee0GXf"
+	},
+	{
 		"title":"HammerFall - Hearts On Fire",
 		"id": "4frDLJUWIeL4WmpmRMrPCbUcAcePG69E"
 	},
 	{
+		"title":"Nightwish - Wishmaster",
+		"id": "IkJSF8G86pJeLOldexpyCuZHdXvACc4K"
+	},
+	{
+		"title":"The Offspring - The Kids Aren't Alright",
+		"id": "J5tlNFVUQ495fotGohf1ag2z0xbPB29d"
+	},
+	{
 		"title":"In Flames - I Am Above",
 		"id": "I7mDYGWpKZVBlP2V5gvuOznAk5Aw8Wcm"
+	},
+	{
+		"title":"Ensiferum - From Afar",
+		"id": "dUei2WHV5uNm29TQB3r641zA4VCMcZiv"
 	},
 	{	
 		"title":"Cash Cash - Michael Jackson (The Beat Goes On)",
