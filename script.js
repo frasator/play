@@ -6,11 +6,18 @@ const nextBtn = document.getElementById('next')
 const audio = document.getElementById('audio')
 const progress = document.getElementById('progress')
 const progressContainer = document.getElementById('progress-container')
+const volume = document.getElementById('volume')
+const volumeContainer = document.getElementById('volume-container')
+const volumeText = document.getElementById('volume-text')
 const title = document.getElementById('title')
 const currTime = document.querySelector('#currTime')
 const durTime = document.querySelector('#durTime')
 
 const list = document.querySelector('#music-list')
+
+audio.volume = 1
+volume.style.width = "100%"
+volumeText.innerText = "100%"
 
 songs = window.songs
 
@@ -214,6 +221,19 @@ audio.addEventListener('timeupdate', updateProgress);
 
 // Click on progress bar
 progressContainer.addEventListener('click', setProgress);
+
+// Click on progress bar
+volumeContainer.addEventListener('click', e => {
+	const width = e.currentTarget.clientWidth
+	const clickX = e.offsetX
+	audio.volume = (clickX / width)
+	let progressPercent = Math.ceil(audio.volume * 100)
+	progressPercent = Math.min(progressPercent, 100)
+	progressPercent = Math.max(progressPercent, 0)
+	volume.style.width = `${progressPercent}%`
+	volumeText.innerText = `${progressPercent}%`
+});
+
 
 // Song ends
 audio.addEventListener('ended', nextSong);

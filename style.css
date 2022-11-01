@@ -91,17 +91,35 @@ body {
   margin: 0;
 }
 
-.progress-container {
+#progress-container {
   background: #222;
   border-radius: 5px;
   cursor: pointer;
   height: 20px;
 }
 
-.progress {
+#progress {
   background-color: #00fff2;
   border-radius: 5px;
   height: 100%;
   width: 0%;
   transition: width 0.1s linear;
+}
+
+#volume-container {
+  background: #222;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 15px;
+}
+
+#volume {
+  background-color: #75b1c1;
+  border-radius: 5px;
+  height: 100%;
+  width: 0%;
+  transition: width 0.1s linear;
+}
+#volume-text {
+  text-align: center;
 }

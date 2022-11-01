@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     />
     <link rel="stylesheet" href="style.css" />
     <title>Music Player</title>
@@ -31,13 +31,22 @@
       </div>
 
       <div class="music-info">
-        <div style="display:flex">
+        <div style="display:flex;">
           <div id="currTime">&nbsp;</div>
           <div style="flex-grow:1"></div>
           <div id="durTime">&nbsp;</div>
         </div>
-        <div class="progress-container" id="progress-container">
-          <div class="progress" id="progress"></div>
+        <div id="progress-container">
+          <div id="progress"></div>
+        </div>
+        <div style="height:5px"></div>
+        <div style="display:flex;font-size:0.8em">
+          <i class="fas fa-volume-low"></i>
+          <div id="volume-text" style="flex-grow:1;"></div>
+          <i class="fas fa-volume-high"></i>
+        </div>
+        <div id="volume-container">
+          <div id="volume"></div>
         </div>
         <div id="title" style="height:4em;padding-top:0.4em"></div>
       </div>
