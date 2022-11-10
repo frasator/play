@@ -44,6 +44,10 @@ window.songs = [
 		"id": "KeV6aixUtnRUtPNqfO6gyTxDNyJxwnzR"
 	},
 	{	
+		"title":"Fading Like A Flower - Rob IYF & Al Storm feat Lacie",
+		"id": "vTa6fTkRDDasMAymXYiRfgzd6RQolSli"
+	},
+	{	
 		"title":"Cascada - Everytime We Touch (Styles & Breeze Remix)",
 		"id": "8YTmwPUQRYwhhU118GHwBrV7Y0e6RdKj"
 	},
