@@ -24,6 +24,7 @@ body {
   flex-grow: 1;
   counter-reset: section;
   overflow-y: scroll;
+  align-items: flex-start;
 }
 .song {
   cursor: pointer;
