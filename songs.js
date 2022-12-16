@@ -1,5 +1,29 @@
 window.songs = [
 	{
+		"title":"Clementine & The Galaxy - Love On the Run",
+		"id": "5wuNOXckyGt4oGUfbR6cxsFaB8JIbR5c"
+	},
+	{	
+		"title":"Fading Like A Flower - Rob IYF & Al Storm feat Lacie",
+		"id": "vTa6fTkRDDasMAymXYiRfgzd6RQolSli"
+	},
+	{	
+		"title":"M & C - Magic Touch (Squad-E Remix)",
+		"id": "NR7AHiJwqx8EnewEkOEeYYj5paZajw2M"
+	},
+	{
+		"title":"Fragma - Memory (CLSM Remix)",
+		"id": "pd3saZ8r2dYVNPkdYM43LnwgbzasExYu"
+	},
+	{	
+		"title":"Zedd - Beautiful Now (Mob X Enemy Remix)",
+		"id": "KeV6aixUtnRUtPNqfO6gyTxDNyJxwnzR"
+	},
+	{	
+		"title":"Paradise - See The Light (Styles Breeze Remix)",
+		"id": "PGLvd3FqomKxLj3iTef4I2KYmM0ulsP2"
+	},
+	{
 		"title":"AC/DC - Highway To Hell",
 		"id": "Ndx9ny3tfBFYQMPkJRwPhAC1HsMTmrE0"
 	},
@@ -40,36 +64,12 @@ window.songs = [
 		"id": "q3Dz9W6Dhiuo7XTGz0Wou8qUAO1U9EWK"
 	},
 	{	
-		"title":"Zedd - Beautiful Now (Mob X Enemy Remix)",
-		"id": "KeV6aixUtnRUtPNqfO6gyTxDNyJxwnzR"
-	},
-	{	
-		"title":"Fading Like A Flower - Rob IYF & Al Storm feat Lacie",
-		"id": "vTa6fTkRDDasMAymXYiRfgzd6RQolSli"
-	},
-	{	
 		"title":"Cascada - Everytime We Touch (Styles & Breeze Remix)",
 		"id": "8YTmwPUQRYwhhU118GHwBrV7Y0e6RdKj"
-	},
-	{	
-		"title":"M & C - Magic Touch (Squad-E Remix)",
-		"id": "NR7AHiJwqx8EnewEkOEeYYj5paZajw2M"
-	},
-	{	
-		"title":"Hudson Mohawke - Very First Breath (M-Project Remix)",
-		"id": "XpbNqTYGZirOXNfyyoSA2E7Nlpe6B4dE"
 	},
 	{
 		"title":"D Code Feat Emma - My Direction (Squad E Remix)",
 		"id": "F3zAAGaT5d83kB0fyXD7H0m510gjxSVf"
-	},
-	{
-		"title":"Fragma - Memory (CLSM Remix)",
-		"id": "pd3saZ8r2dYVNPkdYM43LnwgbzasExYu"
-	},
-	{	
-		"title":"Paradise - See The Light (Styles Breeze Remix)",
-		"id": "PGLvd3FqomKxLj3iTef4I2KYmM0ulsP2"
 	},
 	{	
 		"title":"Impact & Resist - Someday",
@@ -82,5 +82,9 @@ window.songs = [
 	{	
 		"title":"Hixxy - I Have To Dream (Dougal & Gammer Remix)",
 		"id": "vEwPhwc6zoEPcx7BFdaCvm0nK3YhFsjo"
-	}
+	},
+	{	
+		"title":"Hudson Mohawke - Very First Breath (M-Project Remix)",
+		"id": "XpbNqTYGZirOXNfyyoSA2E7Nlpe6B4dE"
+	},
 ]
