@@ -23,6 +23,10 @@ window.songs = [
 		"title":"Paradise - See The Light (Styles Breeze Remix)",
 		"id": "PGLvd3FqomKxLj3iTef4I2KYmM0ulsP2"
 	},
+	{	
+		"title":"Chwhynny - I Am (Sy & Unknown Remix)",
+		"id": "bCVebTO3n3X6gbFGL1ZHH6ZqKt6p9gw4"
+	},
 	{
 		"title":"AC/DC - Highway To Hell",
 		"id": "Ndx9ny3tfBFYQMPkJRwPhAC1HsMTmrE0"
