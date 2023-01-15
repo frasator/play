@@ -241,6 +241,12 @@ audio.addEventListener('ended', nextSong);
 // Time of song
 audio.addEventListener('timeupdate', DurTime);
 
+// Error 
+audio.addEventListener('error', async () => {
+	await new Promise(r => setTimeout(r, 5000))
+	playSong()
+})
+
 
 function cleanWebHostWatermark() {
 	for (const child of document.body.children) {
